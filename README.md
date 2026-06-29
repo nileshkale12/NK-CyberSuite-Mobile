@@ -60,22 +60,22 @@ The following framework layers are validated and maintained automatically by the
 🐉 In Kali Setup Guide
 
 Step 1: Clone the Workspace In Kali with below cmd
-      `git clone https://github.com/nileshkale12/MobiSuite-Mobile.git`
+      git clone https://github.com/nileshkale12/MobiSuite-Mobile.git
 
 Step 2: Navigate to below dir
-      `cd MobiSuite-Mobile`
+      cd MobiSuite-Mobile
 
 Step 3: Install foundational platform tools
-      `sudo apt update && sudo apt install default-jdk adb zipalign apksigner -y`
+      sudo apt update && sudo apt install default-jdk adb zipalign apksigner -y
 
 Step 4: Initialize Python required dependencies
-      `python3 -m pip install customtkinter paramiko scp cryptography`
+      python3 -m pip install customtkinter paramiko scp cryptography
 
 Step 5: Give permission to the below file to run the tool
-      `chmod +x Launch_Kali.sh`
+      chmod +x Launch_Kali.sh
 
 Step 6: Run the below command to launch the tool
-      `./Launch_Kali.sh  or python3 auto_apk_1.0.py`
+      ./Launch_Kali.sh  or python3 auto_apk_1.0.py
 
 (Alternatively, run the suite directly using the interpreter: python3 auto_apk_1.0.py)
 
@@ -87,17 +87,17 @@ Step 1: Ensure Prerequisites are Installed
 Make sure your system has Python 3 and Java 17+ (JRE/JDK) installed and added to your system PATH. No Admin Access is required.
 
 Step 2: Clone or download the Workspace
-      `git clone https://github.com/nileshkale12/MobiSuite-Mobile.git`
+      git clone https://github.com/nileshkale12/MobiSuite-Mobile.git
 
 Step 3: Navigate to the below directory
-      `cd MobiSuite-Mobile`
+      cd MobiSuite-Mobile
 
 Step 4: Initialize Python required dependencies Open your command prompt (cmd) inside the folder and run: 
-      `python -m pip install customtkinter paramiko scp cryptography pyinstaller`
+      python -m pip install customtkinter paramiko scp cryptography pyinstaller
 
 Step 5: Run the below command to launch the tool
 Double-click the Launch_Windows.bat file to boot the Control Center, or run it directly in the terminal:
-      `Launch_Windows.bat`
+      Launch_Windows.bat
 ```
 
 ## 📖 User Operations & Usage Guide
